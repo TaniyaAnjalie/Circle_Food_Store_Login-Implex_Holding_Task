@@ -1,0 +1,46 @@
+.left-div{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #571667;
+    align-items:center ;
+    justify-content:center ;
+}
+
+.logo img{
+    width: 240px;
+    height: 240px;
+    padding: 30px;
+    border-radius: 30%;
+    float: left !important;
+}
+
+.burger img{
+    width: 260px;
+    height: 260px;
+    position: relative;
+    z-index: 1;
+}
+
+.content h2{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--font-name) !important;
+    font-style: italic;
+}
+
+.boy img{
+    width: 25%;
+    margin-left: 25px;
+    margin-top: 3px;
+    margin-top: 10px;
+}
+
+.right-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}

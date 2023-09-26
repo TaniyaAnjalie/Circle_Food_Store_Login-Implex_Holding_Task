@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+:root{
+  --font-name: 'Open Sans', sans-serif;
+  --primary-color: #964af3;
+}
+
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .primary_btn {
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 0.4rem 1.5rem !important;
+    background-color: var(--primary-color) !important;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-align: center;
+    align-items: center;
+  }
